@@ -1,6 +1,7 @@
-node_modules
-dist
-video
-.work
-# original source photos (1.8 GB) - kept locally, too large for GitHub
-image
+# leading slash: only the folders at the project root (public/video must stay tracked)
+/node_modules
+/dist
+/.work
+# original source videos and photos - kept locally, too large for GitHub
+/video
+/image
