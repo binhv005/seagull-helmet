@@ -1,0 +1,6 @@
+node_modules
+dist
+video
+.work
+# original source photos (1.8 GB) - kept locally, too large for GitHub
+image
