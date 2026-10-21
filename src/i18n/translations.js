@@ -270,8 +270,6 @@ export const translations = {
     footer: {
       about: 'Cửa hàng mũ bảo hiểm chính hãng phong cách cổ điển châu Âu dành cho người yêu tự do và những chuyến đi.',
       links: 'Liên kết',
-      support: 'Hỗ trợ',
-      supportLinks: ['Hướng dẫn chọn size', 'Chính sách đổi trả', 'Chính sách bảo hành', 'Giao hàng & thanh toán'],
       rights: 'Bản quyền thuộc về SEAGULL HELMETS.',
     },
     notFound: { title: 'Không tìm thấy trang', text: 'Trang bạn tìm không tồn tại hoặc đã được di chuyển.' },
@@ -548,8 +546,6 @@ export const translations = {
     footer: {
       about: 'A genuine helmet store with classic European style for lovers of freedom and the open road.',
       links: 'Links',
-      support: 'Support',
-      supportLinks: ['Size guide', 'Return policy', 'Warranty policy', 'Shipping & payment'],
       rights: 'All rights reserved by SEAGULL HELMETS.',
     },
     notFound: { title: 'Page not found', text: 'The page you are looking for does not exist or has been moved.' },

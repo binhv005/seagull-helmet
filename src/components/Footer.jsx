@@ -32,15 +32,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
-          <h4>{t.footer.support}</h4>
-          <ul>
-            <li><Link to="/tin-tuc/cach-chon-size-mu-bao-hiem">{t.footer.supportLinks[0]}</Link></li>
-            {t.footer.supportLinks.slice(1).map((l) => (
-              <li key={l}><Link to="/lien-he">{l}</Link></li>
-            ))}
-          </ul>
-        </div>
       </div>
 
       <div className="footer-bottom">

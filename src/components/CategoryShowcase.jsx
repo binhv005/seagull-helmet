@@ -102,6 +102,10 @@ export default function CategoryShowcase() {
           )
         })}
       </div>
+      {/* prev only shows on phones, where one card is visible at a time */}
+      <button type="button" className="cat-show__prev" onClick={() => setActive((a) => (a - 1 + stats.length) % stats.length)} aria-label={t.lookbook.prev}>
+        <IconChevron dir="left" width={22} height={22} />
+      </button>
       <button type="button" className="cat-show__next" onClick={() => setActive((a) => (a + 1) % stats.length)} aria-label={t.lookbook.next}>
         <IconChevron width={22} height={22} />
       </button>
