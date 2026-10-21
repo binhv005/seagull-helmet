@@ -97,6 +97,7 @@ export const translations = {
       count: 'sản phẩm',
       empty: 'Không tìm thấy sản phẩm phù hợp.',
       sortNew: 'Mới nhất',
+      banner: { store: 'Cửa hàng mũ bảo hiểm chính hãng', kind: 'Mũ bảo hiểm', eyebrow: 'Cuộc đời là một', line1: 'chuyến đi', line2: 'Thật đẹp' },
       sortName: 'Tên A → Z',
       category: 'Danh mục',
       size: 'Size',
@@ -152,6 +153,9 @@ export const translations = {
       successTitle: 'Đặt hàng thành công!',
       successText: 'Cảm ơn bạn. SEAGULL HELMETS sẽ gọi xác nhận đơn hàng trong thời gian sớm nhất.',
       required: 'Vui lòng nhập đầy đủ họ tên, số điện thoại và địa chỉ.',
+      toCheckout: 'Tiến hành đặt hàng',
+      back: 'Quay lại giỏ hàng',
+      close: 'Đóng giỏ hàng',
     },
     about: {
       title: 'Giới thiệu',
@@ -267,6 +271,7 @@ export const translations = {
     footer: {
       about: 'Cửa hàng mũ bảo hiểm chính hãng phong cách cổ điển châu Âu dành cho người yêu tự do và những chuyến đi.',
       links: 'Liên kết',
+      findUs: 'Tìm đường đến cửa hàng',
       support: 'Hỗ trợ',
       supportLinks: ['Hướng dẫn chọn size', 'Chính sách đổi trả', 'Chính sách bảo hành', 'Giao hàng & thanh toán'],
       rights: 'Bản quyền thuộc về SEAGULL HELMETS.',
@@ -371,6 +376,7 @@ export const translations = {
       count: 'products',
       empty: 'No matching products found.',
       sortNew: 'Newest',
+      banner: { store: 'Genuine helmet store', kind: 'Helmet', eyebrow: 'Our life is a', line1: 'beautiful', line2: 'Ride' },
       sortName: 'Name A → Z',
       category: 'Category',
       size: 'Size',
@@ -426,6 +432,9 @@ export const translations = {
       successTitle: 'Order placed!',
       successText: 'Thank you. SEAGULL HELMETS will call you shortly to confirm your order.',
       required: 'Please enter your name, phone number and address.',
+      toCheckout: 'Proceed to checkout',
+      back: 'Back to cart',
+      close: 'Close cart',
     },
     about: {
       title: 'About us',
@@ -542,6 +551,7 @@ export const translations = {
     footer: {
       about: 'A genuine helmet store with classic European style for lovers of freedom and the open road.',
       links: 'Links',
+      findUs: 'Find our store',
       support: 'Support',
       supportLinks: ['Size guide', 'Return policy', 'Warranty policy', 'Shipping & payment'],
       rights: 'All rights reserved by SEAGULL HELMETS.',

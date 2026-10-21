@@ -1,6 +1,9 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useLang } from '../i18n/LanguageContext'
 import SocialLinks from './SocialLinks'
+import { store } from '../data/store'
+import { IconPin } from './Icons'
+import { noOrphan } from '../utils/text'
 
 export default function Footer() {
   const { t } = useLang()
@@ -32,6 +35,13 @@ export default function Footer() {
           </ul>
         </div>
 
+        <div className="footer-map">
+          <h4>{t.footer.findUs}</h4>
+          <iframe title="SEAGULL HELMETS map" src={store.mapEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+          <a href={store.mapLink} target="_blank" rel="noreferrer">
+            <IconPin width={16} height={16} /> {noOrphan(store.address)}
+          </a>
+        </div>
       </div>
 
       <div className="footer-bottom">
